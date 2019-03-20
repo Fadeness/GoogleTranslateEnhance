@@ -2,7 +2,7 @@
 // @name         GoogleTranslateEnhance
 // @namespace    https://github.com/Fadeness/GoogleTranslateEnhance
 // @version      0.1
-// @description  enhance google translate's user experience
+// @description  enhance the user experience of Google Translate
 // @author       Fadeness
 // @match        https://translate.google.cn/*
 // @match        https://translate.google.com/*
