@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GoogleTranslateEnhance
-// @namespace    https://github.com/Fadeness/GoogleTranslateEnhance
-// @version      0.1
+// @namespace    https://github.com/Fadeness/Tamper-Monkey-Scripts
+// @version      0.2
 // @description  enhance the user experience of Google Translate
 // @author       Fadeness
 // @match        https://translate.google.cn/*
@@ -11,11 +11,11 @@
 // ==/UserScript==
 
 (function() {
-    'use strict';
+  "use strict";
 
-    const source = $("#source");
+  const source = $("#source");
 
-    source.on("mouseenter", function() {
-        $(this).select();
-    })
+  source.on("mouseenter", function() {
+    $(this).select();
+  });
 })();
